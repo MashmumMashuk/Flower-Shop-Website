@@ -1,0 +1,113 @@
+.top-section {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #E554731A;
+    
+    
+  }
+
+  .flower-image {
+    width:50%;
+    align-items: left;
+    padding-right: 200px;
+    
+  }
+
+  .flower-image img {
+    max-width:100%;
+    height: auto;
+    padding-right: 400px;
+    
+  }
+
+  .flower-info {
+    padding-left: 150px;
+    padding-right: 200px;
+    text-align: left;
+  }
+  .flower-info h1 {
+    font-size: 50px;
+  }
+  
+  #shop_button{
+    background-color: #e14769;
+    color: white;
+    border-radius: ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    ;
+    
+  }
+
+  .featured-flowers {
+    text-align: center;
+    padding: 40px;
+    padding-top: 100px;
+  }
+
+  .featured-flowers h2 {
+    font-size: 36px;
+  }
+
+  .featured-flowers p {
+    font-size: 22px;
+  }
+
+  .flower-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .flower-card-1{
+    background-color: #f9f9f9;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    overflow: hidden;
+    width: 30%;
+    height: 480px;
+    flex-shrink: 0;
+  }
+  .flower-card-2{
+    width: 30%;
+    background-color: #f9f9f9;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    overflow: hidden;
+    height: 480px;
+    
+  }
+  .flower-card-3{
+    width: 30%;
+    background-color: #f9f9f9;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    overflow: hidden;
+  }
+
+  .flower-card img {
+    width: 80%;
+    height: 80%;
+    padding-top: 60px;
+  }
+
+  
+
+  .featured-flower-link {
+    display: inline-block;
+    margin;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    background-color: white;
+    font-size: 20px;
+  }
+
+
+  
