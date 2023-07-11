@@ -1,3 +1,4 @@
+/*----------------Top Section-------------- */
 .top-section {
     display: flex;
     align-items:center;
@@ -23,17 +24,19 @@
 
   .flower-info {
     padding-left: 150px;
-    padding-right: 200px;
-    text-align: left;
+    padding-right:150px;
+    text-align: center;
   }
   .flower-info h1 {
-    font-size: 50px;
+    font-size: 45px;
+    padding-left: 40px;
   }
   
   #shop_button{
     background-color: #e14769;
     color: white;
-    border-radius: ;
+    border: none;
+    border-radius: 10px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -41,7 +44,7 @@
     ;
     
   }
-
+/*----------------Featured Section------------*/
   .featured-flowers {
     text-align: center;
     padding: 40px;
@@ -60,8 +63,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .flower-card-1{
@@ -109,5 +112,170 @@
     font-size: 20px;
   }
 
+/*------------Delivery and call support section--------*/
+  .icon-section {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05); 
+    margin-top: 80px;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .icon-section .icon {
+    display: inline-block;
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
 
   
+
+  .icon-section .icon img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon-section .caption {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+/*--------The Sign Up section--------- */
+
+  .signup-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #E554730D;
+
+    margin-top: 128px;
+
+  }
+
+  .signup-section .left-section {
+    width: 66.66%;
+    text-align: center;
+    padding-top: 7rem;
+    
+  }
+
+  .signup-section .right-section {
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .signup-section h2 {
+    font-size: 30px;
+  }
+
+  .signup-section p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .sign-up-btn {
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: hsl(347, 91%, 70%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-top: 20px;
+  }
+
+  .signup-section button:hover {
+    background-color: #e5e5e5;
+  }
+
+
+  .instagram-section h2,p{
+
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+  }
+
+  .instagram-btn{
+    background-color: rgb(170, 234, 125);
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: black;
+  }
+
+  /*---------Flower container section------*/
+
+  .flower-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  .flower-box {
+    width: 22.5%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .flower-box img {
+    width: 100%;
+    height: auto;
+  }
+
+/*----------NewsLetter Section--------*/
+  .newsletter{
+    background-image: url(Flower\ Asset/Rectangle\ 9.png);
+    background-size: cover;
+    text-align: center;
+
+    margin-top: 128px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px
+  }
+
+.newsletter h2{
+    padding-top: 80px;
+}
+
+.subscription-div{
+    padding-top: 40px;
+    padding-bottom: 120px;
+    
+;
+}
+/*-----------Footer Section--------------*/
+.footer-section{
+background-color: black; height: 400px;
+margin: none;
+text-align: center;
+}
+
+.footer-section h1{
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.rights-reserved{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
