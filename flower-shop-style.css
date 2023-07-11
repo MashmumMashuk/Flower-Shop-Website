@@ -25,11 +25,12 @@
   .flower-info {
     padding-left: 150px;
     padding-right:150px;
-    text-align: center;
+    text-align: left;
   }
   .flower-info h1 {
     font-size: 45px;
     padding-left: 40px;
+    text-align: center;
   }
   
   #shop_button{
